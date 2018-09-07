@@ -10,22 +10,22 @@ What You Will Build
 ===================
 
 You will build a 
-`CDAP application <http://docs.cdap.io/cdap/current/en/developers-manual/building-blocks/applications.html>`__
+`CDAP application <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/applications.html>`__
 that exposes a RESTful API to take in web pages’ backlinks information and
 serve out the `PageRank <http://en.wikipedia.org/wiki/PageRank>`__ for the
 known web pages. You will:
 
 - Use a
-  `Stream <http://docs.cdap.io/cdap/current/en/developers-manual/building-blocks/streams.html>`__
+  `Stream <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/streams.html>`__
   as the source of backlinks data;
 - Build a CDAP
-  `Spark <http://docs.cdap.io/cdap/current/en/developers-manual/building-blocks/spark-jobs.html>`__
+  `Spark <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/spark-jobs.html>`__
   program that reads directly from the Stream and computes the PageRank of the web pages;
 - Use a
-  `Dataset <http://docs.cdap.io/cdap/current/en/developers-manual/building-blocks/datasets/index.html>`__
+  `Dataset <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/datasets/index.html>`__
   to store the output of the Spark program; and
 - Build a
-  `Service <http://docs.cdap.io/cdap/current/en/developers-manual/building-blocks/services.html>`__
+  `Service <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/services.html>`__
   to serve the PageRank computation results over HTTP.
 
 What You Will Need
@@ -33,7 +33,7 @@ What You Will Need
 
 - `JDK 7 or 8 <http://www.oracle.com/technetwork/java/javase/downloads/index.html>`__
 - `Apache Maven 3.1+ <http://maven.apache.org/>`__
-- `CDAP SDK <http://docs.cdap.io/cdap/current/en/developers-manual/getting-started/standalone/index.html>`__
+- `CDAP SDK <http://docs.cdap.io/cdap/current/en/developer-manual/getting-started/standalone/index.html>`__
 
 Let’s Build It!
 ===============

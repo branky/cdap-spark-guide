@@ -19,7 +19,7 @@ known web pages. You will:
   `Stream <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/streams.html>`__
   as the source of backlinks data;
 - Build a CDAP
-  `Spark <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/spark-jobs.html>`__
+  `Spark <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/spark-programs.html>`__
   program that reads directly from the Stream and computes the PageRank of the web pages;
 - Use a
   `Dataset <http://docs.cdap.io/cdap/current/en/developer-manual/building-blocks/datasets/index.html>`__
@@ -33,7 +33,7 @@ What You Will Need
 
 - `JDK 7 or 8 <http://www.oracle.com/technetwork/java/javase/downloads/index.html>`__
 - `Apache Maven 3.1+ <http://maven.apache.org/>`__
-- `CDAP SDK <http://docs.cdap.io/cdap/current/en/developer-manual/getting-started/standalone/index.html>`__
+- `CDAP SDK <http://docs.cdap.io/cdap/current/en/developer-manual/getting-started/sandbox/index.html>`__
 
 Let’s Build It!
 ===============
